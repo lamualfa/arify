@@ -1,9 +1,10 @@
 {
-  "name": "arify-2",
-  "displayName": "Arify 2",
+  "name": "arify",
+  "displayName": "Arify",
   "version": "0.0.1",
   "description": "Download interceptor.",
   "author": "lamualfa@gmail.com",
+  "license": "WTFPL",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
