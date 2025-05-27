@@ -29,9 +29,9 @@
 
 ## Why?
 
-The default chrome downloader (or any other browsers) is sucks. Bad continue/retry mechanism, no parallelization, no background download & slow performance. This extension will help you to intercept that and use lightweight cli downloader instead.
+The default chrome downloader (or any other browsers) is sucks. Bad continue/retry mechanism, no parallelization, no background download & slow performance. This extension will help you intercept that and use the lightweight cli downloader instead.
 
-> Or just use download manager if you fine with paywall or background service.
+> Or just use download manager if you're fine with paywall or background service.
 
 <br/>
 
