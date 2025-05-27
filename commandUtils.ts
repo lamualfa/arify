@@ -1,4 +1,5 @@
-import type { DownloadTool } from "./types"
+import type { DownloadTool } from "./types";
+
 
 export interface CommandGenerationParams {
   originalUrl: string
@@ -79,7 +80,7 @@ export const generateCliCommand = ({
       break
     case "curl":
     default:
-      command = `curl -L -J -O -C - ${escapedUrl}`
+      command = `curl -L -O -C - ${escapedUrl}`
       command += ` -H 'User-Agent: ${effectiveUserAgent}'`
       if (cookies) command += ` -H 'Cookie: ${cookies}'`
       if (referer) command += ` -H 'Referer: ${referer}'`
