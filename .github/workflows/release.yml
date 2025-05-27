@@ -44,4 +44,4 @@ jobs:
           tag_name: v${{ steps.pkg.outputs.version }}
           draft: true
           files: |
-            dist/*.zip
+            build/*.zip
